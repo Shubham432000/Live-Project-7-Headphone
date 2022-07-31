@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+  font-family: Fredoka One;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.nav-items{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+}
+.active-item{
+    color: tomato;
+}
+.nav-item{
+    margin: 0px 20px;
+    font-size: 17px;
+}
+.left-section{
+    width: 50%;
+    margin-left: 50px;
+}
+.right-section{
+    width: 50%;
+}
+.intro-section{
+    display: flex;
+    flex-direction: row;
+}
+.left-section>h3{
+    margin-top: 50px;
+    font-size: 40px;
+}
+.left-section>h1{
+    margin-top: 20px;
+    font-size: 60px;
+}
+.sub-headlines{
+    margin-top: 10px;
+   margin-left: 50px;
+}
+.sub-headline{
+    margin: 10px 0px;
+    font-size: 25px;
+}
+.sub-headline>img{
+    background-color: #D82E2F;
+    border-radius: 50%;
+    margin: 0px 5px;
+    
+}
+.text{
+    margin-top: 30px;
+    color: #758283;
+}
+.action-btn{
+    padding: 10px 20px;
+    background-color: #D82E2F;
+    border: none;
+    border-radius: 30px;
+    color: white;
+    margin: 0px 20px;
+}
+.action-btns>.action-btn{
+    font-family: Poppins;
+    margin-top: 50px;
+}
+.discount{
+    position:absolute;
+    z-index: 2;
+    margin-top: 190px;
+    height: 140px;
+
+}
+.discount-content{
+    position: absolute;
+    z-index: 3;
+   
+}
+.discount-content {
+    top: 300px;
+    left: 740px;
+   
+    color: white;
+}
+.dots{
+    display: flex;
+    flex-direction: row;
+}
+.dot{
+    height: 20px;
+    width: 20px;
+    margin: 0px 10px;
+    border-radius: 50%;
+}
+.yellow-dot{
+    background-color: yellow;
+margin-left: 210px;
+margin-top: 30px;
+}
+.tomato-dot{
+    background-color: tomato;
+    margin-top: 30px;
+}
+.black-dot{
+    background-color: black;
+    margin-top: 30px;
+}
+.right-section>.action-btn{
+    font-family: Poppins;
+    margin-top: 40px;
+    margin-left: 200px;
+}
