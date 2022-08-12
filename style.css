@@ -21,6 +21,10 @@ nav{
 .active-item{
     color: tomato;
 }
+.logo{
+    height: 40px;
+    width:90px
+}
 .nav-item{
     margin: 0px 20px;
     font-size: 17px;
